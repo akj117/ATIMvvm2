@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_alert_dialog"
+    android:layout_width="@dimen/margin_scale_250"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/margin_scale_10"
+    android:background="@drawable/alert_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.akbartravels.atiapp.utils.FontTextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:drawablePadding="@dimen/margin_scale_10"
+        android:gravity="left|center"
+        android:letterSpacing="0.01"
+        android:maxLines="1"
+        android:text="@string/alert"
+        android:textColor="@color/color_main_bg"
+        android:textSize="@dimen/margin_scale_16"
+        android:textStyle="bold"
+         />
+
+    <com.akbartravels.atiapp.utils.FontTextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_scale_20"
+        android:drawablePadding="@dimen/margin_scale_10"
+        android:gravity="left|center"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/margin_scale_16" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/bt_ok"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/bt_ok"
+            android:layout_toStartOf="@+id/bt_ok"
+            android:background="@color/color_main_bg"
+            android:text="@string/no"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/margin_scale_16" />
+
+        <Button
+            android:id="@+id/bt_ok"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@color/color_main_bg"
+            android:text="@string/yes"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/margin_scale_16" />
+    </RelativeLayout>
+</LinearLayout>

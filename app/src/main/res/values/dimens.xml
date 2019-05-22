@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_scale_1">1dp</dimen>
+    <dimen name="margin_scale_2">2dp</dimen>
+    <dimen name="margin_scale_5">5dp</dimen>
+    <dimen name="margin_scale_10">10dp</dimen>
+    <dimen name="margin_scale_16">16dp</dimen>
+    <dimen name="margin_scale_20">20dp</dimen>
+    <dimen name="margin_scale_25">25dp</dimen>
+    <dimen name="margin_scale_30">30dp</dimen>
+    <dimen name="margin_scale_40">40dp</dimen>
+    <dimen name="margin_scale_50">50dp</dimen>
+    <dimen name="margin_scale_60">60dp</dimen>
+    <dimen name="margin_scale_70">70dp</dimen>
+    <dimen name="margin_scale_75">75dp</dimen>
+    <dimen name="margin_scale_80">80dp</dimen>
+    <dimen name="margin_scale_90">90dp</dimen>
+    <dimen name="margin_scale_100">100dp</dimen>
+    <dimen name="margin_scale_125">125dp</dimen>
+    <dimen name="margin_scale_150">150dp</dimen>
+    <dimen name="margin_scale_175">175dp</dimen>
+    <dimen name="margin_scale_200">200dp</dimen>
+    <dimen name="margin_scale_250">250dp</dimen>
+</resources>

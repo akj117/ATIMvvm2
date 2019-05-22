@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7d0139</color>
+    <color name="colorPrimaryDark">#FF5F042D</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_main_bg">#7d0139</color>
+    <color name="color_white">#FFF</color>
+    <color name="color_trans">#80000000</color>
+    <color name="red_new">#AF2222</color>
+    <color name="my_booking_button_red">#BB242D</color>
+    <color name="color_black">#000</color>
+    <color name="semi_black_text_color">#4A4A4A</color>
+
+</resources>

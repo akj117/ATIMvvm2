@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data >
+
+        <variable
+            name="homePageData"
+            type="com.akbartravels.atimvvm.HomePageViewModel" />
+    </data>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="2"
+            android:background="@drawable/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_scale_100">
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_scale_16"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sm_logo"
+                    android:layout_width="@dimen/margin_scale_60"
+                    android:layout_height="@dimen/margin_scale_60" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_scale_16"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:onClick="@{homePageData.onLogoutButtonClicked}"
+                    android:id="@+id/img_sign_out"
+                    android:background="@drawable/sign_out"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="@dimen/margin_scale_40"
+                    android:layout_height="@dimen/margin_scale_40" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/margin_scale_50"
+                android:layout_marginLeft="@dimen/margin_scale_20"
+                android:layout_marginRight="@dimen/margin_scale_20"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TableRow
+                    android:weightSum="2.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:onClick="@{homePageData.onCreateDnumber}"
+                        android:id="@+id/btn_ll_create_Dno"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/homepage_btns"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:background="@drawable/button_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                        <com.akbartravels.atimvvm.utils.FontTextView
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/margin_scale_30"
+                            android:textColor="@color/color_white"
+                            android:text="@string/d_no_create"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_weight=".1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                    </View>
+
+                    <LinearLayout
+                        android:onClick="@{homePageData.onRetrieveDnumber}"
+                        android:id="@+id/btn_ll_retrieve_Dno"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/homepage_btns"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:background="@drawable/button_icon_right"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                        <com.akbartravels.atimvvm.utils.FontTextView
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/margin_scale_30"
+                            android:textColor="@color/color_white"
+                            android:text="@string/d_no_retrieve"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+</layout>

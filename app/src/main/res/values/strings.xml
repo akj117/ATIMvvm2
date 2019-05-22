@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">ATIAppMvvm</string>
+    <string name="str_preference_file">ATIAppMvvm</string>
+    <string name="authorities">com.akbartravels.atimvvm.provider</string>
+
+    //*****************login page**********************
+    <string name="uname">Username</string>
+    <string name="pswd">Password</string>
+    <string name="login">login</string>
+    <string name="title_1">akbar auto</string>
+    <string name="title_2">Issuance &amp; Billing Tool</string>
+
+    //******************home page*************************
+    <string name="d_no_create">Button for \ncreating D.No</string>
+    <string name="d_no_retrieve">Button for \nretrieving D.No</string>
+
+
+    //******************** creation form inputs******************
+    <string name="AUI">AUI</string>
+    <string name="UTL">UTL</string>
+    <string name="SID">SID</string>
+    <string name="UserName">UserName</string>
+    <string name="AdminCustType">AdminCustType</string>
+    <string name="AdminCustIdentifier">AdminCustIdentifier</string>
+    <string name="RequestedFrom">RequestedFrom</string>
+    <string name="RegionId">RegionId</string>
+    <string name="FYearID">FYearID</string>
+    <string name="WCCustRefNo">WCCustRefNo</string>
+    <string name="WCTitle">WCTitle</string>
+    <string name="WCName">WCName</string>
+    <string name="WCAddress">WCAddress</string>
+    <string name="WCDOB">WCDOB</string>
+    <string name="WCPhone">WCPhone</string>
+    <string name="WCMobile">WCMobile</string>
+    <string name="WCEmail">WCEmail</string>
+    <string name="WCCountryId">WCCountryId</string>
+    <string name="WCPassportNo">WCPassportNo</string>
+    <string name="WCPlaceOfIssue">WCPlaceOfIssue</string>
+    <string name="WCDateOfIssue">WCDateOfIssue</string>
+    <string name="WCFileTypeId">WCFileTypeId</string>
+    <string name="WCFileIdNumber">WCFileIdNumber</string>
+    <string name="WCPANFileName">WCPANFileName</string>
+    <string name="WCPassportFileName">WCPassportFileName</string>
+    <string name="WCRefEmployeeId">WCRefEmployeeId</string>
+    <string name="GSTStateCode">GSTStateCode</string>
+    <string name="IsfrmApp">IsfrmApp</string>
+
+    <string name="reference_no">Reference Number</string>
+    <string name="title">Title</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="dob">DOB</string>
+    <string name="phone">Phone</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="country_id">Country ID</string>
+    <string name="passport_no">Passport No</string>
+    <string name="place_of_issue">Place of Issue</string>
+    <string name="date_of_issue">Date of Issue</string>
+    <string name="select_document">Select Document Type</string>
+    <string name="file_id_no">File ID Number</string>
+    <string name="pan_file_name">Pan File Name</string>
+    <string name="passport_file_name">Passport File Name</string>
+    <string name="gst_state">GST State</string>
+
+
+    <string name="DC_FileRefNo">file reference number</string>
+
+    <string name="choose">Choose</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="register">Register</string>
+    <string name="retrieve">Retrieve</string>
+
+    //**********************Capture Picture page*******************
+    <string name="capture">Capture</string>
+    <string name="gallery">Gallary</string>
+
+    //*********************alert***************************
+    <string name="alert">Alert</string>
+    <string name="logout">Do you want to log out ?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="allow_both_permission">You need to allow access to both the permissions</string>
+    <string name="logout_success">Successfully logged out</string>
+
+    //*************************** toasts************************************
+    <string name="d_create">D number created successfully!</string>
+    <string name="error_msg">Something went wrong...Please try later!</string>
+    <string name="exit">Please click BACK again to exit</string>
+    <string name="check_internet">Please check your internet connection</string>
+    <string name="invalid_uname">Invalid Username</string>
+    <string name="invalid_pswd">Invalid Password</string>
+    <string name="invalid_credentials">Invalid Login Credentials</string>
+
+    <string name="permission_cam">Permission Granted, Now you can access read data and camera.</string>
+    <string name="no_permission_cam">Permission Denied, You cannot access read data and camera.</string>
+
+    <string name="image_uploaded">Image Successfully Uploaded</string>
+
+    //**************************** validation toasts ******************************
+    <string name="validate_name">Please enter a Name</string>
+    <string name="validate_address">Please enter a Address</string>
+    <string name="validate_phone">Please enter a Phone number</string>
+    <string name="validate_mobile">Please enter a Mobile number</string>
+    <string name="validate_country_id">Please select a Country ID</string>
+    <string name="validate_passport">Please enter either Passport details or file details</string>
+    <string name="validate_gststate">Please select a GST state</string>
+    <string name="validate_email">Please enter a valid email</string>
+
+    <string name="validate_fileRefno">Please enter FileReference No</string>
+
+
+
+
+
+    //********************* String Arrays*************************
+    <string-array name="array_title">
+        <item>Title</item>
+
+        <item>Mr</item>
+
+        <item>Ms</item>
+
+        <item>Mrs</item>
+
+    </string-array>
+
+    <string-array name="array_country_ids">
+
+        <item>Country ID</item>
+
+        <item>Indian</item>
+
+        <item>Foreigner</item>
+
+    </string-array>
+
+    <string-array name="array_file_types">
+        <item>Select Document Type</item>
+
+        <item>Voters ID</item>
+
+        <item>Driving License</item>
+
+        <item>Aadhar</item>
+
+        <item>NPR</item>
+
+        <item>PAN</item>
+
+    </string-array>
+
+    <string-array name="array_gst_states">
+        <item>GST State</item>
+
+        <item> AN -	Andaman Nicobar</item>
+        <item> AP -	Andhra Pradesh </item>
+        <item> AR -	Arunachal Pradesh</item>
+        <item> AS -	Assam</item>
+        <item> BR -	Bihar</item>
+        <item> CH -	Chandigarh</item>
+        <item> CT -	Chhattisgarh</item>
+        <item> DN -	Dadra Nagar Haveli</item>
+        <item> DD -	Daman Diu</item>
+        <item> DL -	Delhi</item>
+        <item> GA -	Goa</item>
+        <item> GJ -	Gujarat</item>
+        <item> HR -	Haryana</item>
+        <item> HP -	Himachal Pradesh</item>
+        <item> JK -	Jammu Kashmir</item>
+        <item> JH -	Jharkhand</item>
+        <item> KA -	Karnataka</item>
+        <item> KL -	Kerala</item>
+        <item> LD -	Lakshadweep</item>
+        <item> MP -	Madhya Pradesh</item>
+        <item> MH -	Maharashtra</item>
+        <item> MN -	Manipur</item>
+        <item> ML -	Meghalaya</item>
+        <item> MZ -	Mizoram</item>
+        <item> NL -	Nagaland</item>
+        <item> OR -	Odisha</item>
+        <item> PY -	Puducherry</item>
+        <item> PB -	Punjab</item>
+        <item> RJ -	Rajasthan</item>
+        <item> SK -	Sikkim</item>
+        <item> TN -	Tamil Nadu</item>
+        <item> TG -	Telangana</item>
+        <item> TR -	Tripura</item>
+        <item> UP -	Uttar Pradesh</item>
+        <item> UT -	Uttarakhand</item>
+        <item> WB -	West Bengal</item>
+
+
+    </string-array>
+
+
+
+
+</resources>
